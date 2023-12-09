@@ -1,0 +1,39 @@
+
+@media
+@media screen and (min-width: 900px) {
+    .mask-group-icon,
+    .mask-group-icon1,
+    .mask-group-icon2,
+    .group-icon1,
+    .vector-icon2,
+    .group-icon2,
+    .vector-icon3,
+    .vector-icon4 
+        
+        width: 900px; 
+    }
+
+    .seccion-web-inner {
+        
+        margin-top: 20px; 
+    }
+/*movil*/
+
+    @media screen and (max-width: 300px) {
+        .mask-group-icon,
+        .mask-group-icon1,
+        .mask-group-icon2,
+       
+        .group-icon1,
+        .vector-icon2,
+        .group-icon2,
+        .vector-icon3,
+        .vector-icon4 {
+           
+            width: 50px; 
+        }
+    
+        .seccion-web-inner {
+            
+            margin-top: 10px; 
+    }
